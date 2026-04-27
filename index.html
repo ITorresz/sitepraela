@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Para Nicolly 💖</title>
+  <link rel="shortcut icon" href="ico/icons8-heart-with-arrow-96.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- =====================
+       SPLASH SCREEN
+  ===================== -->
+  <div id="splash">
+    <div class="splash-heart">💖</div>
+    <h1 class="splash-title">Nicolly</h1>
+    <p class="splash-subtitle">Um site feito só pra você</p>
+    <div class="splash-progress">
+      <div class="splash-progress-bar"></div>
+    </div>
+  </div>
+
+  <!-- =====================
+       PARTÍCULAS DE FUNDO
+  ===================== -->
+  <div id="particles"></div>
+
+  <!-- =====================
+       CHUVA DE CORAÇÕES (365º dia)
+  ===================== -->
+  <div id="heart-rain"></div>
+
+  <!-- Banner 365 dias -->
+  <div class="day-365-banner">
+    <h2>🎊 365 Dias! 💚</h2>
+    <p>
+      Um ano inteiro ao seu lado. 365 dias de amor, de risadas, de abraços e
+      de um sentimento que só cresce. Obrigado por cada segundo, Nicolly.
+      Você é o melhor que me aconteceu. Te amo infinitamente.
+    </p>
+    <p style="margin-top:16px;font-size:1.4rem;">— Isaque ❤️</p>
+    <button class="close-banner">Fechar</button>
+  </div>
+
+  <!-- =====================
+       HEADER / NAVEGAÇÃO
+  ===================== -->
+  <header>
+    <div class="nav-inner">
+      <a class="nav-logo" href="#">Nico<span>lly</span> 💚</a>
+
+      <nav>
+        <button class="nav-btn" data-section="home">Início</button>
+        <button class="nav-btn" data-section="carta">Carta</button>
+        <button class="nav-btn" data-section="galeria">Galeria</button>
+        <button class="nav-btn" data-section="historia">Nossa História</button>
+        <button class="nav-btn" data-section="contador">Contador</button>
+        <button class="nav-btn" data-section="quiz">Quiz</button>
+        <button class="nav-btn" data-section="video">Vídeo</button>
+        <button class="nav-btn" data-section="mensagens">Mensagens</button>
+        <button class="nav-btn" data-section="sonhos">Sonhos</button>
+        <button class="nav-btn" data-section="promessas">Promessas</button>
+      </nav>
+
+      <button class="hamburger" id="hamburger-btn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Menu Mobile -->
+  <div class="mobile-nav" id="mobile-nav">
+    <button class="mobile-nav-btn" data-section="home">🏠 Início</button>
+    <button class="mobile-nav-btn" data-section="carta">💌 Carta de Amor</button>
+    <button class="mobile-nav-btn" data-section="galeria">📷 Galeria de Fotos</button>
+    <button class="mobile-nav-btn" data-section="historia">📖 Nossa História</button>
+    <button class="mobile-nav-btn" data-section="contador">⏱️ Contador</button>
+    <button class="mobile-nav-btn" data-section="quiz">💡 Quiz do Amor</button>
+    <button class="mobile-nav-btn" data-section="video">🎥 Vídeo Especial</button>
+    <button class="mobile-nav-btn" data-section="mensagens">✉️ Mensagens Secretas</button>
+    <button class="mobile-nav-btn" data-section="sonhos">✨ Nossos Sonhos</button>
+    <button class="mobile-nav-btn" data-section="promessas">🌹 Promessas</button>
+  </div>
+
+  <!-- =====================
+       MAIN CONTENT
+  ===================== -->
+  <main>
+
+    <!-- ==================
+         HOME
+    ================== -->
+    <section id="home" class="page-section active">
+      <div class="hero">
+        <p class="hero-eyebrow">✦ Para minha pessoa favorita no mundo ✦</p>
+        <h1 class="hero-name">Para <em>você</em>,<br>Nicolly</h1>
+        <p class="hero-tagline">
+          Um espaço criado com todo o amor do mundo.<br>
+          Navegue, explore, e sinta o quanto você é amada.
+        </p>
+
+        <div class="hero-counter-mini">
+          <span class="days-num" id="hero-days">0</span>
+          <span class="days-label">dias de muita felicidade 💚</span>
+        </div>
+
+        <div class="hero-cta-row">
+          <button class="btn-primary" data-goto="carta">Ler minha carta ✉️</button>
+          <button class="btn-secondary" data-goto="galeria">Ver nossas fotos 📷</button>
+        </div>
+
+        <div class="hero-photo">
+          <img src="imagens/WhatsApp Image 2025-06-04 at 11.04.29.jpeg" alt="Nicolly" />
+        </div>
+
+        <div class="scroll-hint">↓</div>
+      </div>
+
+      <!-- Feature Cards -->
+      <div class="features">
+        <div class="feature-card" data-goto="carta">
+          <span class="icon">💌</span>
+          <h3>Carta de Amor</h3>
+          <p>Palavras escritas com o coração para você guardar pra sempre.</p>
+        </div>
+        <div class="feature-card" data-goto="galeria">
+          <span class="icon">📷</span>
+          <h3>Nossa Galeria</h3>
+          <p>Momentos que eu nunca vou querer esquecer. Cada foto, uma memória.</p>
+        </div>
+        <div class="feature-card" data-goto="historia">
+          <span class="icon">📖</span>
+          <h3>Nossa História</h3>
+          <p>Do começo até aqui. Cada capítulo que escrevemos juntos.</p>
+        </div>
+        <div class="feature-card" data-goto="contador">
+          <span class="icon">⏱️</span>
+          <h3>Contador</h3>
+          <p>Cada segundo conta. Veja quanto tempo de amor já acumulamos.</p>
+        </div>
+        <div class="feature-card" data-goto="quiz">
+          <span class="icon">💡</span>
+          <h3>Quiz do Amor</h3>
+          <p>Vamos ver o quanto você me conhece? Responda e descubra!</p>
+        </div>
+        <div class="feature-card" data-goto="mensagens">
+          <span class="icon">✉️</span>
+          <h3>Mensagens Secretas</h3>
+          <p>8 mensagens especiais escondidas só esperando você abrir.</p>
+        </div>
+        <div class="feature-card" data-goto="sonhos">
+          <span class="icon">✨</span>
+          <h3>Nossos Sonhos</h3>
+          <p>Tudo o que quero viver ao seu lado. Nossos planos pro futuro.</p>
+        </div>
+        <div class="feature-card" data-goto="promessas">
+          <span class="icon">🌹</span>
+          <h3>Minhas Promessas</h3>
+          <p>O que eu prometo pra você, de todo coração, pra sempre.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================
+         CARTA DE AMOR
+    ================== -->
+    <section id="carta" class="page-section">
+      <div class="section-header">
+        <p class="section-eyebrow">✦ Escrita com o coração ✦</p>
+        <h2 class="section-title">Minha Carta<br>para <em>Você</em></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="letter-container">
+        <div class="letter-paper">
+          <p class="letter-greeting">Minha Nicolly,</p>
+
+          <div class="letter-body">
+            <p>Não sei nem por onde começar, porque quando se trata de você, as palavras sempre parecem pequenas demais perto do que eu sinto. Mas mesmo assim, eu quero tentar. Porque você merece saber, com cada letra, com cada linha, o quanto você é importante pra mim.</p>
+
+            <p>Desde o dia que você entrou na minha vida, tudo mudou. O mundo ficou mais bonito, mais leve… como se tudo tivesse ganhado cor. Você chegou e, sem nem perceber, trouxe paz onde antes havia bagunça, trouxe risos onde antes havia silêncio, e trouxe amor onde antes havia só espaço vazio. Eu me pego pensando: como eu vivi tanto tempo sem você?</p>
+
+            <p>É difícil explicar o que você representa pra mim. Você é muito mais do que minha namorada. Você é minha parceira, minha melhor amiga, meu apoio, meu lar. Você é a pessoa com quem eu quero dividir cada momento, cada sonho, cada vitória, cada dificuldade também — porque até nos dias difíceis, se for com você, vale a pena.</p>
+
+            <p>Lembro dos nossos primeiros olhares, das primeiras conversas, das primeiras risadas… Lembro de como meu coração batia mais rápido só de ver seu nome aparecendo no celular. E ainda bate. Porque mesmo depois de tudo o que já vivemos, você continua me fazendo sentir como se fosse a primeira vez. E isso é mágico.</p>
+
+            <p>Você é linda de um jeito que nem dá pra explicar. E não tô falando só da sua beleza por fora — que, convenhamos, é absurda — mas da sua essência, do seu coração, da sua doçura, da sua luz. Você ilumina tudo ao seu redor, inclusive a minha vida. Eu admiro tanto o jeito como você se entrega, como cuida, como ama. O seu amor é um presente que eu nunca vou deixar de agradecer.</p>
+
+            <p>Eu amo seu jeito bobo e ao mesmo tempo forte. Amo quando você sorri de um jeito tímido, como se não soubesse o quanto é encantadora. Amo o jeito que você fala comigo, o jeito que se preocupa, o jeito que segura minha mão, o jeito que me olha — como se eu fosse tudo pra você — porque, pra mim, você é tudo.</p>
+
+            <p>Tem dias que eu paro, olho pra você e penso: "Cara, eu consegui." Consegui a sorte grande. Consegui encontrar alguém que me entende, que me escuta, que me respeita, que me apoia, que me ama de um jeito inteiro. Alguém com quem eu posso ser eu mesmo, sem medo, sem máscaras, sem precisar esconder nada. Com você eu sou completo.</p>
+
+            <p>Eu não vejo a hora de continuar construindo nossa história. Quero viajar com você, morar com você, acordar todo dia ao seu lado. Quero rir com você das coisas mais bobas, quero segurar sua mão quando você estiver cansada, quero te dar colo nos dias ruins e dançar com você nos dias bons. Quero envelhecer com você. Te ver realizar seus sonhos, te aplaudir de pé em cada conquista, ser seu apoio em cada tropeço. Eu quero ser tudo que você precisa, sempre.</p>
+
+            <p>Sabe, às vezes eu fico só te olhando, em silêncio, e me emociono. Porque você me faz acreditar que o amor vale a pena. Que existe, que é real, que é possível. Você me salvou de tantas formas que talvez nem imagine. Me deu direção quando eu tava perdido, me trouxe cor quando tudo parecia cinza. E, acima de tudo, me mostrou o que é ser amado de verdade.</p>
+
+            <p>Eu prometo nunca deixar de cuidar de você. Prometo sempre te respeitar, te ouvir, te valorizar. Prometo te lembrar todos os dias do quanto você é incrível. Prometo segurar sua mão firme, mesmo quando tudo parecer desabar. Prometo ser abrigo, ser paz, ser companhia. Prometo, de coração, te amar com tudo o que eu sou.</p>
+
+            <p>Então, se um dia você duvidar — por qualquer razão — de como é amada, volta aqui e lê de novo essas palavras. Porque eu escrevi com o coração. Porque você é tudo pra mim, Nicolly. E o meu amor por você… é infinito.</p>
+          </div>
+
+          <div class="letter-signature">
+            Com todo o amor do mundo,<br>
+            <strong>Isaque</strong> 💚
+          </div>
+
+          <div class="letter-flower">🌹 🌸 🌹</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================
+         GALERIA
+    ================== -->
+    <section id="galeria" class="page-section">
+      <div class="section-header">
+        <p class="section-eyebrow">✦ Momentos eternos ✦</p>
+        <h2 class="section-title">Nossa <em>Galeria</em></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="gallery-tabs">
+        <button class="gallery-tab-btn active">Todas as Fotos</button>
+        <button class="gallery-tab-btn">Favoritas</button>
+        <button class="gallery-tab-btn">Momentos</button>
+      </div>
+
+      <div class="gallery-grid masonry" id="gallery-grid">
+        <!-- Populado via JS -->
+      </div>
+    </section>
+
+    <!-- ==================
+         NOSSA HISTÓRIA
+    ================== -->
+    <section id="historia" class="page-section">
+      <div class="section-header">
+        <p class="section-eyebrow">✦ Capítulo por capítulo ✦</p>
+        <h2 class="section-title">Nossa <em>História</em></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <p class="timeline-date">O Começo de Tudo</p>
+            <h3 class="timeline-title">O dia que te vi pela primeira vez 👀</h3>
+            <p class="timeline-text">Tem momentos na vida que a gente sabe que algo mudou. Quando eu te vi pela primeira vez, foi exatamente isso. Uma sensação estranha, boa, que eu não conseguia explicar. Era o começo de algo que eu ainda não entendia, mas que o coração já sabia.</p>
+          </div>
+          <div class="timeline-dot">👀</div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <p class="timeline-date">As Primeiras Conversas</p>
+            <h3 class="timeline-title">Quando o papo não terminava nunca 💬</h3>
+            <p class="timeline-text">A gente começou a conversar e eu percebi que você era diferente. Inteligente, engraçada, genuína. Cada conversa me fazia querer mais. Eu ficava esperando sua mensagem com um sorriso que eu mal conseguia esconder.</p>
+          </div>
+          <div class="timeline-dot">💬</div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <p class="timeline-date">O Momento Mágico</p>
+            <h3 class="timeline-title">O primeiro beijo atrás da cortina do circo 🎪</h3>
+            <p class="timeline-text">Atrás daquela cortina, o mundo parou. Só existíamos nós dois. Foi o beijo que mudou tudo — que confirmou o que meu coração já gritava. Naquele instante, eu soube: era você. Sempre foi você.</p>
+          </div>
+          <div class="timeline-dot">🎪</div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <p class="timeline-date">1º de Maio de 2025</p>
+            <h3 class="timeline-title">O dia em que nos tornamos nós 💚</h3>
+            <p class="timeline-text">Primeiro de maio. Uma data que ficou marcada no meu coração para sempre. O dia em que você aceitou ser minha namorada, e eu passei a ser o homem mais feliz do mundo. Cada mês que passa, eu te amo mais.</p>
+          </div>
+          <div class="timeline-dot">💚</div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <p class="timeline-date">Os Dias que Seguiram</p>
+            <h3 class="timeline-title">Construindo nossa rotina juntos 🏠</h3>
+            <p class="timeline-text">Ao longo do tempo, fui descobrindo os seus detalhes. Seus humores, seus gostos, seus medos e seus sonhos. E com cada descoberta, fui me apaixonando mais. A rotina com você é tudo, menos comum.</p>
+          </div>
+          <div class="timeline-dot">🏠</div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <p class="timeline-date">Em Andamento…</p>
+            <h3 class="timeline-title">Os próximos capítulos ✨</h3>
+            <p class="timeline-text">Nossa história ainda está sendo escrita. Cada dia é uma nova página, cada momento é um novo parágrafo. E eu mal posso esperar por tudo o que ainda vem por aí — sempre com você do meu lado.</p>
+          </div>
+          <div class="timeline-dot">✨</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================
+         CONTADOR
+    ================== -->
+    <section id="contador" class="page-section">
+      <div class="counter-section">
+        <p class="section-eyebrow">✦ Cada segundo importa ✦</p>
+        <h2 class="section-title" style="color:white;">Desde que tudo<br><em>começou</em></h2>
+        <div class="section-divider"></div>
+
+        <div class="counter-grid">
+          <div class="counter-unit">
+            <span class="num" id="cnt-days">000</span>
+            <span class="unit-label">Dias</span>
+          </div>
+          <div class="counter-unit">
+            <span class="num" id="cnt-hours">00</span>
+            <span class="unit-label">Horas</span>
+          </div>
+          <div class="counter-unit">
+            <span class="num" id="cnt-minutes">00</span>
+            <span class="unit-label">Minutos</span>
+          </div>
+          <div class="counter-unit">
+            <span class="num" id="cnt-seconds">00</span>
+            <span class="unit-label">Segundos</span>
+          </div>
+        </div>
+
+        <p class="counter-phrase">
+          Desde o dia 1 de maio de 2025, cada segundo ao seu lado<br>
+          tem sido um presente que quero viver pra sempre. 💖
+        </p>
+
+        <div style="margin-top:50px;padding:40px;background:rgba(255,255,255,0.06);border-radius:20px;max-width:600px;margin-left:auto;margin-right:auto;border:1px solid rgba(255,255,255,0.1);">
+          <p style="font-family:'Cormorant Garamond',serif;font-size:1.4rem;font-style:italic;color:rgba(255,255,255,0.9);line-height:1.8;">
+            "E no dia em que completarmos 365 dias juntos, o céu aqui vai chover de corações — porque nenhum coração no mundo cabe o amor que sinto por você."
+          </p>
+          <p style="margin-top:16px;font-size:0.85rem;letter-spacing:2px;color:rgba(255,255,255,0.4);text-transform:uppercase;">— Isaque</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================
+         QUIZ
+    ================== -->
+    <section id="quiz" class="page-section">
+      <div class="section-header">
+        <p class="section-eyebrow">✦ Vamos testar? ✦</p>
+        <h2 class="section-title">Quiz do <em>Amor</em></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="quiz-container">
+        <div class="quiz-card">
+          <div id="quiz-card-content">
+            <div class="quiz-progress">
+              <div class="quiz-dot current"></div>
+              <div class="quiz-dot"></div>
+              <div class="quiz-dot"></div>
+              <div class="quiz-dot"></div>
+              <div class="quiz-dot"></div>
+              <div class="quiz-dot"></div>
+            </div>
+
+            <p class="quiz-question-num" id="quiz-question-num">Pergunta 1 de 6</p>
+            <p class="quiz-question-text" id="quiz-question-text">…</p>
+
+            <div class="quiz-options" id="quiz-options">
+              <!-- Populado via JS -->
+            </div>
+
+            <div class="quiz-feedback" id="quiz-feedback"></div>
+
+            <button class="quiz-next-btn" id="quiz-next-btn">Próxima →</button>
+          </div>
+
+          <!-- Resultado -->
+          <div class="quiz-result" id="quiz-result">
+            <div class="quiz-result-emoji" id="quiz-result-emoji">🏆</div>
+            <h3 class="quiz-result-title">Resultado!</h3>
+            <p class="quiz-result-msg" id="quiz-result-msg"></p>
+            <button class="quiz-restart" id="quiz-restart">Jogar de novo 🔄</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================
+         VÍDEO
+    ================== -->
+    <section id="video" class="page-section">
+      <div class="section-header">
+        <p class="section-eyebrow">✦ 2 minutos antes de tudo ✦</p>
+        <h2 class="section-title">O Vídeo que<br><em>Guardo</em></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="video-container">
+        <div class="video-wrapper">
+          <video controls preload="metadata">
+            <source src="imagens/WhatsApp Video 2025-06-04 at 11.01.04.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos.
+          </video>
+        </div>
+        <p class="video-label">
+          "2 minutos antes de tudo começar… antes de nós. 🎥💚"
+        </p>
+
+        <div style="margin-top:50px;background:#f0fafa;border-radius:20px;padding:40px 36px;border:1px solid #b2e8e8;">
+          <p style="font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-style:italic;color:#007f7f;line-height:1.8;">
+            Esse vídeo pra mim é especial. Porque foi logo antes que tudo mudou. Logo antes de você se tornar a parte mais importante da minha vida. E quando eu assisto, eu fico pensando no quanto eu sou grato por tudo que veio depois.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================
+         MENSAGENS SECRETAS
+    ================== -->
+    <section id="mensagens" class="page-section">
+      <div class="section-header">
+        <p class="section-eyebrow">✦ Só pra você ler ✦</p>
+        <h2 class="section-title">Mensagens<br><em>Secretas</em></h2>
+        <div class="section-divider"></div>
+        <p style="margin-top:20px;font-size:1rem;color:#4a6060;max-width:500px;margin-left:auto;margin-right:auto;line-height:1.7;">
+          Toque em cada envelope para descobrir o que está dentro. Cada um guarda um sentimento especial que eu quis guardar só pra você. 💌
+        </p>
+      </div>
+
+      <div class="messages-grid" id="messages-grid">
+        <!-- Populado via JS -->
+      </div>
+    </section>
+
+    <!-- Modal Mensagem -->
+    <div id="msg-modal">
+      <div class="msg-modal-box">
+        <button class="msg-modal-close" id="msg-modal-close">✕</button>
+        <div class="msg-modal-emoji" id="msg-modal-emoji">💌</div>
+        <h3 class="msg-modal-title" id="msg-modal-title">Título</h3>
+        <p class="msg-modal-text" id="msg-modal-text">Texto</p>
+      </div>
+    </div>
+
+    <!-- ==================
+         NOSSOS SONHOS
+    ================== -->
+    <section id="sonhos" class="page-section">
+      <div class="sonhos-section">
+        <div style="text-align:center;margin-bottom:0;">
+          <p class="section-eyebrow" style="color:#b2e8e8;">✦ O futuro que quero ✦</p>
+          <h2 class="section-title" style="color:white;">Nossos <em style="color:#f7a8c4;">Sonhos</em></h2>
+          <div class="section-divider"></div>
+          <p style="margin-top:20px;font-size:1rem;color:rgba(255,255,255,0.6);max-width:500px;margin-left:auto;margin-right:auto;line-height:1.7;">
+            Tudo que eu sonho em viver ao seu lado. Alguns já começamos, outros ainda vamos realizar — mas todos têm você.
+          </p>
+        </div>
+
+        <div class="dreams-grid">
+
+          <div class="dream-card">
+            <span class="dream-icon">✈️</span>
+            <h3 class="dream-title">Viajar juntos</h3>
+            <p class="dream-text">Quero explorar o mundo com você. Não importa o destino — praia, montanha, cidade grande ou interior. O que importa é a companhia.</p>
+            <span class="dream-check">Em breve</span>
+          </div>
+
+          <div class="dream-card">
+            <span class="dream-icon">🏠</span>
+            <h3 class="dream-title">Nosso cantinho</h3>
+            <p class="dream-text">Um lugar nosso, com nossa cara, onde a gente chega e sente paz. Onde cada detalhe conta nossa história.</p>
+            <span class="dream-check">Em construção 💚</span>
+          </div>
+
+          <div class="dream-card">
+            <span class="dream-icon">🌅</span>
+            <h3 class="dream-title">Ver o pôr do sol juntos</h3>
+            <p class="dream-text">Quero sentar contigo em algum lugar lindo e só olhar. Sem pressa, sem celular. Só nós dois e o céu em chamas.</p>
+            <span class="dream-check">Em breve</span>
+          </div>
+
+          <div class="dream-card">
+            <span class="dream-icon">🍳</span>
+            <h3 class="dream-title">Cozinhar juntos</h3>
+            <p class="dream-text">Uma tarde inteira na cozinha, criando receitas, errando, rindo, e no fim sentar pra comer o que fizemos juntos. Isso seria perfeito.</p>
+            <span class="dream-check done">✓ Quero demais</span>
+          </div>
+
+          <div class="dream-card">
+            <span class="dream-icon">🎬</span>
+            <h3 class="dream-title">Maratona de filmes</h3>
+            <p class="dream-text">Cobertor, pipoca, você do meu lado, e filmes o dia todo. Sem compromisso, só curtindo o momento com você.</p>
+            <span class="dream-check done">✓ Sempre quero</span>
+          </div>
+
+          <div class="dream-card">
+            <span class="dream-icon">🌟</span>
+            <h3 class="dream-title">Ver as estrelas</h3>
+            <p class="dream-text">Deitar embaixo do céu estrelado com você e ficar horas conversando, sonhando, e agradecendo por termos nos encontrado.</p>
+            <span class="dream-check">Em breve</span>
+          </div>
+
+          <div class="dream-card">
+            <span class="dream-icon">📸</span>
+            <h3 class="dream-title">Ensaio fotográfico</h3>
+            <p class="dream-text">Registrar a gente. Nossa história, nossos sorrisos, nossos olhares. Fotos que a gente vai olhar daqui a 30 anos e sorrir.</p>
+            <span class="dream-check">Em breve</span>
+          </div>
+
+          <div class="dream-card">
+            <span class="dream-icon">💍</span>
+            <h3 class="dream-title">O futuro com você</h3>
+            <p class="dream-text">Não tenho pressa, mas tenho certeza. Quero construir um futuro lindo ao seu lado. Cada etapa, cada fase — com você.</p>
+            <span class="dream-check">Nosso caminho 💚</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================
+         PROMESSAS
+    ================== -->
+    <section id="promessas" class="page-section">
+      <div class="section-header">
+        <p class="section-eyebrow">✦ Do fundo do meu coração ✦</p>
+        <h2 class="section-title">Minhas <em>Promessas</em><br>pra Você</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="promises-container">
+
+        <div class="promise-item">
+          <div class="promise-num">01</div>
+          <div class="promise-content">
+            <h3 class="promise-title">Prometo sempre te respeitar</h3>
+            <p class="promise-text">Não importa o momento, a situação, o dia ruim. Você sempre vai ter meu respeito. Pelo que você é, pelo que sente, pelo que pensa. Você merece ser tratada com todo o cuidado do mundo.</p>
+          </div>
+        </div>
+
+        <div class="promise-item">
+          <div class="promise-num">02</div>
+          <div class="promise-content">
+            <h3 class="promise-title">Prometo sempre te ouvir</h3>
+            <p class="promise-text">Quando você precisar falar, eu estarei aqui. Sem julgamento, sem pressa, sem ficar no celular. Só eu e você, e todo o tempo do mundo pra você me contar tudo o que está no coração.</p>
+          </div>
+        </div>
+
+        <div class="promise-item">
+          <div class="promise-num">03</div>
+          <div class="promise-content">
+            <h3 class="promise-title">Prometo te lembrar todo dia do quanto você é incrível</h3>
+            <p class="promise-text">Às vezes a gente esquece. Fica tão envolvida no dia a dia que esquece do próprio valor. Mas você nunca vai esquecer enquanto eu estiver do seu lado — porque eu vou te lembrar todos os dias.</p>
+          </div>
+        </div>
+
+        <div class="promise-item">
+          <div class="promise-num">04</div>
+          <div class="promise-content">
+            <h3 class="promise-title">Prometo ser seu porto seguro</h3>
+            <p class="promise-text">Nos dias de tempestade, pode vir pra mim. Quando tudo estiver pesado, quando o cansaço tomar conta, quando o mundo parecer grande demais — eu vou estar aqui. Sempre. Sem exceção.</p>
+          </div>
+        </div>
+
+        <div class="promise-item">
+          <div class="promise-num">05</div>
+          <div class="promise-content">
+            <h3 class="promise-title">Prometo crescer com você</h3>
+            <p class="promise-text">Não sou perfeito e nunca vou ser. Mas prometo que quando eu errar, vou reconhecer. Vou aprender. Vou melhorar. Porque você merece alguém que cresce — e eu quero crescer com você.</p>
+          </div>
+        </div>
+
+        <div class="promise-item">
+          <div class="promise-num">06</div>
+          <div class="promise-content">
+            <h3 class="promise-title">Prometo apoiar todos os seus sonhos</h3>
+            <p class="promise-text">Cada meta sua é minha meta também. Cada sonho que você tiver, eu vou estar do lado te incentivando, torcendo, acreditando. Você pode ser e fazer tudo o que quiser — e eu vou ser seu fã número 1.</p>
+          </div>
+        </div>
+
+        <div class="promise-item">
+          <div class="promise-num">07</div>
+          <div class="promise-content">
+            <h3 class="promise-title">Prometo nunca parar de te surpreender</h3>
+            <p class="promise-text">O amor que não se renova, murcha. E eu não quero isso pra nós. Quero continuar te surpreendendo, te fazendo sorrir, criando memórias. O amor é uma escolha que eu faço por você todo dia.</p>
+          </div>
+        </div>
+
+        <div class="promise-item">
+          <div class="promise-num">08</div>
+          <div class="promise-content">
+            <h3 class="promise-title">Prometo te amar com tudo que sou</h3>
+            <p class="promise-text">Com minha imperfeição, com meu jeito doido, com minha bagunça e meu coração enorme. Tudo o que eu tenho, tudo o que eu sou — é seu. Hoje, amanhã, e pra sempre. Te amo, Nicolly. 💚</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =====================
+       LIGHTBOX
+  ===================== -->
+  <div id="lightbox">
+    <button id="lightbox-close">✕</button>
+    <button id="lightbox-prev">‹</button>
+    <img id="lightbox-img" src="" alt="Foto">
+    <div id="lightbox-caption"></div>
+    <button id="lightbox-next">›</button>
+  </div>
+
+  <!-- =====================
+       FOOTER
+  ===================== -->
+  <footer>
+    <div class="footer-name">Nicolly Briena D'avassi</div>
+    <div class="footer-tag">Feito com todo o amor do mundo — Isaque 💚</div>
+    <div class="footer-hearts">💖 💕 💖 💕 💖</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
