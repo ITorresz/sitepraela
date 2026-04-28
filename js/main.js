@@ -266,38 +266,122 @@ const quizData = [
   {
     q: 'Quem disse "eu te amo" primeiro?',
     options: ['Isaque', 'Nicolly', 'Os dois ao mesmo tempo', 'Um recado de voz'],
-    correct: 0,
-    feedback: ['Exatamente! Fui eu que disse primeiro, com o coração na mão 💚', 'Quase... fui eu! 😄', 'Quase! Fui eu o corajoso 😊', 'Não, foi pessoalmente!']
+    correct: 1,
+    feedback: ['Errado! Foi a Nicolly que disse primeiro, minha linda 💚', 'Exatamente! Você foi corajosa e disse primeiro, amor 😄', 'Quase, mas foi você!', 'Não foi por voz, foi pessoal!']
   },
   {
-    q: 'Onde foi o nosso primeiro beijo que mudou tudo?',
-    options: ['Atrás da cortina do circo', 'Na praça da cidade', 'Na escola', 'Numa festa'],
-    correct: 0,
-    feedback: ['Isso mesmo! Atrás da cortina, nosso segredinho 🎪💕', 'Quase, mas não!', 'Não foi lá não 😄', 'Não foi em festa não!']
+    q: 'Qual é a cor dos olhos da Nicolly que me deixa louco?',
+    options: ['Azul', 'Verde', 'Castanho', 'Preto'],
+    correct: 2,
+    feedback: ['Não, são castanhos lindos!', 'Exato! Seus olhos castanhos me encantam, minha fofinha 💖', 'Não, são castanhos!', 'Não, são castanhos!']
   },
   {
-    q: 'Qual música sempre me faz lembrar de você?',
-    options: ['Amor que nos faz um', 'Fico assim sem você', 'Trem Bala', 'Por enquanto'],
-    correct: 0,
-    feedback: ['Essa música fala tanto de mim pensando em você ❤️', 'Essa também é linda, mas não é a nossa!', 'Trem Bala é demais, mas não é essa!', 'Quase!']
+    q: 'O que a Nicolly mais ama fazer comigo?',
+    options: ['Cozinhar', 'Assistir filmes', 'Conversar até tarde', 'Todas as opções'],
+    correct: 3,
+    feedback: ['Você ama tudo isso, mas principalmente conversar!', 'Você ama tudo, mas todas são perfeitas!', 'Exato! Todas as opções, porque você ama tudo que fazemos juntos, amor ✨', 'Não, você ama tudo!']
   },
   {
-    q: 'O que eu mais amo em você (além de tudo)?',
-    options: ['Seu coração', 'Seu cabelo', 'Sua comida', 'Seu jeito de rir'],
-    correct: 0,
-    feedback: ['Seu coração é o maior presente que a vida me deu 💖', 'Seu cabelo também é lindo, mas é o coração que me ganhou!', 'Você cozinha bem? haha! Mas é o coração!', 'Seu riso também é mágico, mas é o coração!']
+    q: 'Qual é o sorriso da Nicolly que me derrete?',
+    options: ['O tímido', 'O largo', 'O bobo', 'Todos'],
+    correct: 3,
+    feedback: ['Todos os sorrisos são lindos!', 'Todos me derretem!', 'Exato! Todos os seus sorrisos são mágicos, minha princesinha 😍', 'Não, todos!']
   },
   {
-    q: 'Qual viagem nós sonhamos em fazer juntos?',
-    options: ['Qualquer lugar que seja com você', 'Paris, França', 'Nova York, EUA', 'Maldivas'],
-    correct: 0,
-    feedback: ['Exatamente! Com você, qualquer destino vira paraíso 🌍✈️', 'Paris seria incrível, mas o que importa é estarmos juntos!', 'Nova York também é um sonho, mas o segredo é estarmos juntos!', 'Maldivas com você seria perfeito! Mas qualquer lugar serve!']
+    q: 'O que a Nicolly representa pra mim?',
+    options: ['Minha namorada', 'Minha melhor amiga', 'Meu amor eterno', 'Tudo isso'],
+    correct: 3,
+    feedback: ['Você é tudo isso e mais!', 'Você é tudo!', 'Exato! Você é tudo pra mim, minha linda 💕', 'Não, você é tudo!']
   },
   {
-    q: 'Quando eu olho pra você, o que eu sinto?',
-    options: ['Que ganhei a loteria da vida', 'Nervoso', 'Indiferença', 'Sono'],
+    q: 'Qual comida a Nicolly mais ama?',
+    options: ['Pizza', 'Chocolate', 'Sorvete', 'Tudo doce'],
+    correct: 3,
+    feedback: ['Você ama tudo doce, amor!', 'Exato! Você ama tudo doce, minha fofinha 🍫', 'Não, tudo doce!', 'Não, tudo doce!']
+  },
+  {
+    q: 'O que a Nicolly faz quando está feliz?',
+    options: ['Sorri', 'Canta', 'Dança', 'Todas as opções'],
+    correct: 3,
+    feedback: ['Você faz tudo quando está feliz!', 'Exato! Você sorri, canta e dança de alegria, minha linda 🎶', 'Não, todas!', 'Não, todas!']
+  },
+  {
+    q: 'Qual é o maior sonho da Nicolly?',
+    options: ['Ser feliz comigo', 'Viajar o mundo', 'Ter uma família', 'Todos'],
+    correct: 3,
+    feedback: ['Você sonha com tudo isso!', 'Exato! Você sonha com tudo, minha princesinha 🌟', 'Não, todos!', 'Não, todos!']
+  },
+  {
+    q: 'O que a Nicolly mais valoriza em um relacionamento?',
+    options: ['Respeito', 'Amor', 'Confiança', 'Tudo'],
+    correct: 3,
+    feedback: ['Você valoriza tudo!', 'Exato! Você valoriza tudo, amor 💑', 'Não, tudo!', 'Não, tudo!']
+  },
+  {
+    q: 'Qual é a qualidade da Nicolly que mais admiro?',
+    options: ['Sua doçura', 'Sua força', 'Sua inteligência', 'Todas'],
+    correct: 3,
+    feedback: ['Você tem todas essas qualidades!', 'Exato! Você é doce, forte e inteligente, minha linda 👑', 'Não, todas!', 'Não, todas!']
+  },
+  {
+    q: 'O que a Nicolly faz quando estou triste?',
+    options: ['Me abraça', 'Me consola', 'Me faz rir', 'Todas'],
+    correct: 3,
+    feedback: ['Você faz tudo pra me animar!', 'Exato! Você me abraça, consola e faz rir, amor 🥰', 'Não, todas!', 'Não, todas!']
+  },
+  {
+    q: 'Qual lugar a Nicolly mais ama ir comigo?',
+    options: ['Praia', 'Cinema', 'Passear', 'Qualquer lugar'],
+    correct: 3,
+    feedback: ['Você ama qualquer lugar comigo!', 'Exato! Qualquer lugar é especial com você, minha fofinha 🌍', 'Não, qualquer lugar!', 'Não, qualquer lugar!']
+  },
+  {
+    q: 'O que a Nicolly representa no meu coração?',
+    options: ['Uma chama', 'Uma estrela', 'Meu mundo', 'Tudo'],
+    correct: 3,
+    feedback: ['Você é tudo no meu coração!', 'Exato! Você é tudo, minha linda ❤️', 'Não, tudo!', 'Não, tudo!']
+  },
+  {
+    q: 'Qual música lembra a Nicolly?',
+    options: ['Romântica', 'Alegre', 'Triste', 'Todas'],
+    correct: 3,
+    feedback: ['Todas as músicas me lembram de você!', 'Exato! Todas as músicas falam de você, amor 🎵', 'Não, todas!', 'Não, todas!']
+  },
+  {
+    q: 'O que a Nicolly faz de melhor?',
+    options: ['Amar', 'Cuidar', 'Ser feliz', 'Tudo'],
+    correct: 3,
+    feedback: ['Você faz tudo de melhor!', 'Exato! Você faz tudo de melhor, minha princesinha ✨', 'Não, tudo!', 'Não, tudo!']
+  },
+  {
+    q: 'Qual é o maior presente que a Nicolly me deu?',
+    options: ['Seu amor', 'Sua presença', 'Sua alegria', 'Tudo'],
+    correct: 3,
+    feedback: ['Você me deu tudo!', 'Exato! Você me deu tudo, amor 🎁', 'Não, tudo!', 'Não, tudo!']
+  },
+  {
+    q: 'O que a Nicolly mais ama em mim?',
+    options: ['Meu jeito', 'Minha voz', 'Meu amor', 'Tudo'],
+    correct: 3,
+    feedback: ['Você ama tudo em mim!', 'Exato! Você ama tudo, minha linda 💖', 'Não, tudo!', 'Não, tudo!']
+  },
+  {
+    q: 'Qual é a cor favorita da Nicolly?',
+    options: ['Rosa', 'Azul', 'Verde', 'Vermelho'],
     correct: 0,
-    feedback: ['Sim! Você é meu maior prêmio, Nicolly 🏆💚', 'Até fico nervoso às vezes de tanta emoção, mas principalmente grato!', 'Hm, definitivamente não é isso 😄', 'Com você ao meu lado, eu fico mais acordado do que nunca!']
+    feedback: ['Exato! Rosa é sua cor favorita, amor 🌸', 'Não, é rosa!', 'Não, rosa!', 'Não, rosa!']
+  },
+  {
+    q: 'O que a Nicolly mais ama comer?',
+    options: ['Doce', 'Salgado', 'Fruta', 'Tudo'],
+    correct: 3,
+    feedback: ['Você ama tudo!', 'Exato! Você ama tudo, minha fofinha 🍭', 'Não, tudo!', 'Não, tudo!']
+  },
+  {
+    q: 'Qual é o maior medo da Nicolly?',
+    options: ['Perder o amor', 'Ficar sozinha', 'Não ser feliz', 'Nenhum'],
+    correct: 3,
+    feedback: ['Você não tem medo, amor!', 'Exato! Você não tem medo porque é forte, minha linda 🛡️', 'Não, nenhum!', 'Não, nenhum!']
   },
 ];
 
@@ -414,7 +498,39 @@ document.getElementById('quiz-restart')?.addEventListener('click', () => {
 
 buildQuiz();
 
-/* --- MENSAGENS SECRETAS --- */
+/* --- SALVAR HISTÓRIA --- */
+function loadSavedStories() {
+  const saved = JSON.parse(localStorage.getItem('nicollyStories') || '[]');
+  const container = document.getElementById('saved-stories');
+  if (!container) return;
+  container.innerHTML = '';
+  saved.forEach((story, idx) => {
+    const div = document.createElement('div');
+    div.classList.add('saved-story-item');
+    div.innerHTML = `<p>${story}</p><button onclick="deleteStory(${idx})">Excluir</button>`;
+    container.appendChild(div);
+  });
+}
+
+function saveStory() {
+  const text = document.getElementById('new-story-text').value.trim();
+  if (!text) return;
+  const saved = JSON.parse(localStorage.getItem('nicollyStories') || '[]');
+  saved.push(text);
+  localStorage.setItem('nicollyStories', JSON.stringify(saved));
+  document.getElementById('new-story-text').value = '';
+  loadSavedStories();
+}
+
+function deleteStory(idx) {
+  const saved = JSON.parse(localStorage.getItem('nicollyStories') || '[]');
+  saved.splice(idx, 1);
+  localStorage.setItem('nicollyStories', JSON.stringify(saved));
+  loadSavedStories();
+}
+
+document.getElementById('save-story-btn')?.addEventListener('click', saveStory);
+loadSavedStories();
 const secretMessages = [
   {
     icon: '💌',

@@ -4,20 +4,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400&display=swap');
 
 :root {
-  --teal-dark: #005f5f;
-  --teal: #007f7f;
-  --teal-mid: #009999;
-  --teal-light: #b2e8e8;
-  --teal-pale: #e0f7f5;
-  --teal-ultra-pale: #f0fafa;
-  --rose: #f7a8c4;
-  --rose-dark: #e75480;
+  --red-dark: #8B0000;
+  --red: #DC143C;
+  --red-mid: #FF4500;
+  --red-light: #FFB6C1;
+  --red-pale: #FFE4E1;
+  --red-ultra-pale: #FFF0F5;
+  --pink: #FF69B4;
+  --pink-dark: #C71585;
   --cream: #fffdf7;
   --gold: #c9a84c;
   --text-dark: #2c3e3e;
   --text-mid: #4a6060;
-  --shadow: 0 8px 40px rgba(0, 127, 127, 0.12);
-  --shadow-hover: 0 16px 60px rgba(0, 127, 127, 0.22);
+  --shadow: 0 8px 40px rgba(220, 20, 60, 0.12);
+  --shadow-hover: 0 16px 60px rgba(220, 20, 60, 0.22);
   --radius: 20px;
   --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -163,7 +163,7 @@ header {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.6rem;
   font-weight: 600;
-  color: var(--teal-dark);
+  color: var(--red-dark);
   letter-spacing: 2px;
   text-decoration: none;
   display: flex;
@@ -196,13 +196,13 @@ nav {
 }
 
 .nav-btn:hover, .nav-btn.active {
-  color: var(--teal-dark);
-  background: var(--teal-pale);
+  color: var(--red-dark);
+  background: var(--red-pale);
 }
 
 .nav-btn.active {
   font-weight: 700;
-  color: var(--teal);
+  color: var(--red);
 }
 
 .hamburger {
@@ -219,7 +219,7 @@ nav {
   display: block;
   width: 24px;
   height: 2px;
-  background: var(--teal-dark);
+  background: var(--red-dark);
   border-radius: 2px;
   transition: var(--transition);
 }
@@ -258,7 +258,7 @@ main {
   text-align: center;
   padding: 60px 24px 80px;
   position: relative;
-  background: linear-gradient(160deg, var(--teal-ultra-pale) 0%, var(--cream) 50%, rgba(247, 168, 196, 0.08) 100%);
+  background: linear-gradient(160deg, var(--red-ultra-pale) 0%, var(--cream) 50%, rgba(255, 105, 180, 0.08) 100%);
 }
 
 .hero::before {
@@ -266,7 +266,7 @@ main {
   position: absolute;
   top: -200px; right: -200px;
   width: 600px; height: 600px;
-  background: radial-gradient(circle, rgba(0,153,153,0.07) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(220, 20, 60, 0.07) 0%, transparent 70%);
   border-radius: 50%;
 }
 
@@ -275,7 +275,7 @@ main {
   position: absolute;
   bottom: -150px; left: -150px;
   width: 500px; height: 500px;
-  background: radial-gradient(circle, rgba(247,168,196,0.1) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(255,105,180,0.1) 0%, transparent 70%);
   border-radius: 50%;
 }
 
@@ -284,7 +284,7 @@ main {
   font-size: 0.85rem;
   letter-spacing: 5px;
   text-transform: uppercase;
-  color: var(--teal-mid);
+  color: var(--red-mid);
   margin-bottom: 20px;
   animation: fadeInUp 0.8s ease 0.2s both;
 }
@@ -293,7 +293,7 @@ main {
   font-family: 'Cormorant Garamond', serif;
   font-size: clamp(3.5rem, 10vw, 8rem);
   font-weight: 300;
-  color: var(--teal-dark);
+  color: var(--red-dark);
   line-height: 1;
   letter-spacing: 2px;
   animation: fadeInUp 0.8s ease 0.4s both;
@@ -301,7 +301,7 @@ main {
 
 .hero-name em {
   font-style: italic;
-  color: var(--rose-dark);
+  color: var(--pink-dark);
 }
 
 .hero-tagline {
@@ -329,7 +329,7 @@ main {
   font-family: 'Cormorant Garamond', serif;
   font-size: 2.4rem;
   font-weight: 600;
-  color: var(--teal);
+  color: var(--red);
   display: block;
   line-height: 1;
 }
@@ -356,18 +356,18 @@ main {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: white;
-  background: linear-gradient(135deg, var(--teal) 0%, var(--teal-dark) 100%);
+  background: linear-gradient(135deg, var(--red) 0%, var(--red-dark) 100%);
   border: none;
   cursor: pointer;
   padding: 16px 36px;
   border-radius: 100px;
   transition: var(--transition);
-  box-shadow: 0 8px 30px rgba(0, 127, 127, 0.3);
+  box-shadow: 0 8px 30px rgba(220, 20, 60, 0.3);
 }
 
 .btn-primary:hover {
   transform: translateY(-3px);
-  box-shadow: 0 16px 40px rgba(0, 127, 127, 0.4);
+  box-shadow: 0 16px 40px rgba(220, 20, 60, 0.4);
 }
 
 .btn-secondary {
@@ -375,9 +375,9 @@ main {
   font-size: 0.9rem;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: var(--teal);
+  color: var(--red);
   background: transparent;
-  border: 2px solid var(--teal-light);
+  border: 2px solid var(--red-light);
   cursor: pointer;
   padding: 16px 36px;
   border-radius: 100px;
@@ -385,8 +385,8 @@ main {
 }
 
 .btn-secondary:hover {
-  background: var(--teal-pale);
-  border-color: var(--teal-mid);
+  background: var(--red-pale);
+  border-color: var(--red-mid);
   transform: translateY(-3px);
 }
 
@@ -421,7 +421,7 @@ main {
   left: 50%;
   transform: translateX(-50%);
   animation: bounce 2s ease infinite;
-  color: var(--teal-mid);
+  color: var(--red-mid);
   font-size: 1.5rem;
 }
 
@@ -461,7 +461,7 @@ main {
 .feature-card h3 {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.3rem;
-  color: var(--teal-dark);
+  color: var(--red-dark);
   margin-bottom: 10px;
 }
 .feature-card p {
@@ -474,7 +474,7 @@ main {
    CARTA DE AMOR
    ============================ */
 #carta {
-  background: linear-gradient(160deg, var(--cream) 0%, var(--teal-ultra-pale) 100%);
+  background: linear-gradient(160deg, var(--cream) 0%, var(--red-ultra-pale) 100%);
 }
 
 .section-header {
@@ -486,7 +486,7 @@ main {
   font-size: 0.8rem;
   letter-spacing: 5px;
   text-transform: uppercase;
-  color: var(--teal-mid);
+  color: var(--red-mid);
   margin-bottom: 16px;
 }
 
