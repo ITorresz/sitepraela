@@ -1495,3 +1495,137 @@ footer {
   .gallery-grid.masonry { columns: 1; }
   .dream-card { padding: 28px 20px; }
 }
+
+/* ============================
+   NOSSA HISTÓRIA — EDITOR DE CAPÍTULOS
+   ============================ */
+.historia-form-container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 24px 100px;
+}
+
+.historia-form-box {
+  background: white;
+  border-radius: var(--radius);
+  padding: 48px 52px;
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(0, 127, 127, 0.10);
+}
+
+.historia-form-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.9rem;
+  color: var(--teal-dark);
+  margin-bottom: 8px;
+}
+
+.historia-form-desc {
+  font-size: 0.95rem;
+  color: var(--text-mid);
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+.historia-form-row {
+  display: flex;
+  gap: 16px;
+}
+
+.historia-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+.historia-form-group.half { flex: 0 0 calc(50% - 8px); }
+
+.historia-form-group label {
+  font-size: 0.82rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--teal-mid);
+  font-weight: 700;
+}
+
+.historia-form-group input,
+.historia-form-group textarea {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.05rem;
+  color: var(--text-dark);
+  background: var(--teal-ultra-pale);
+  border: 2px solid var(--teal-light);
+  border-radius: 12px;
+  padding: 14px 18px;
+  resize: vertical;
+  transition: var(--transition);
+  outline: none;
+  width: 100%;
+}
+
+.historia-form-group input:focus,
+.historia-form-group textarea:focus {
+  border-color: var(--teal-mid);
+  background: white;
+  box-shadow: 0 0 0 4px rgba(0, 153, 153, 0.08);
+}
+
+.historia-submit-btn {
+  width: 100%;
+  margin-top: 8px;
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+}
+
+.historia-feedback {
+  margin-top: 20px;
+  background: #d4f8e8;
+  border: 1px solid #34a853;
+  color: #1a5c35;
+  border-radius: 12px;
+  padding: 14px 20px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+/* Botão de deletar capítulo na timeline */
+.timeline-delete-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: rgba(234, 67, 53, 0.1);
+  border: none;
+  border-radius: 8px;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: var(--transition);
+  opacity: 0.5;
+}
+
+.timeline-content { position: relative; }
+
+.timeline-content:hover .timeline-delete-btn { opacity: 1; }
+
+.timeline-delete-btn:hover { background: rgba(234, 67, 53, 0.25); }
+
+/* Quiz progress — suporte a 20 dots (menores) */
+.quiz-progress {
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.quiz-dot {
+  min-width: 20px;
+  flex: 1;
+  max-width: 36px;
+}
+
+@media (max-width: 600px) {
+  .historia-form-box { padding: 32px 24px; }
+  .historia-form-row { flex-direction: column; gap: 0; }
+  .historia-form-group.half { flex: 1; }
+}
