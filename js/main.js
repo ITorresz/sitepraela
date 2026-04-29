@@ -126,16 +126,16 @@ document.querySelector('.close-banner')?.addEventListener('click', () => {
    e adicione uma nova linha aqui embaixo seguindo o modelo!
    ============================ */
 const photos = [
-  /* FOTO 01 */ { src: 'imagens/WhatsApp Image 2025-06-04 at 10.58.21 (1).jpeg', caption: 'Sua Linda! 💚' },
-  /* FOTO 02 */ { src: 'imagens/WhatsApp Image 2025-06-04 at 10.58.21 (2).jpeg', caption: 'Seu sorriso me ilumina ✨' },
-  /* FOTO 03 */ { src: 'imagens/WhatsApp Image 2025-06-04 at 11.04.29.jpeg', caption: 'Cada instante com você vira lembrança eterna no meu coração 💖' },
-  /* FOTO 04 */ { src: 'imagens/WhatsApp Image 2025-06-04 at 10.58.21 (4).jpeg', caption: 'Te olhar é como encontrar meu lar no meio do mundo 🏠' },
-  /* FOTO 05 */ { src: 'imagens/WhatsApp Image 2025-06-04 at 10.58.21.jpeg', caption: 'Seu sorriso tem o poder de apagar qualquer tempestade dentro de mim 🌤️' },
-  /* FOTO 06 */ { src: 'imagens/WhatsApp Image 2025-06-04 at 11.01.01.jpeg', caption: 'Foi no seu abraço que eu entendi o que é paz de verdade 🕊️' },
-  /* FOTO 07 */ { src: 'imagens/WhatsApp Image 2025-06-04 at 11.04.29 (1).jpeg', caption: 'Não importa onde estamos, se estou com você, estou completo 💫' },
-  /* FOTO 08 */ { src: 'imagens/WhatsApp Image 2025-06-04 at 11.04.29 (2).jpeg', caption: 'Você é o meu sonho que eu tenho a sorte de viver acordado 🌙' },
-  /* FOTO 09 */ { src: 'imagens/WhatsApp Image 2025-06-04 at 11.04.29 (3).jpeg', caption: 'Cada detalhe seu me faz te amar ainda mais 🌹' },
-  /* FOTO 10 */ { src: 'imagens/WhatsApp Image 2025-06-04 at 10.58.21 (3).jpeg', caption: 'Se eu pudesse, congelava esse momento pra viver nele pra sempre ⏳' },
+  /* FOTO 01 */ { src: 'imagens/nicolly/IMG_1860.heic', caption: 'Sua Linda! 💚' },
+  /* FOTO 02 */ { src: 'imagens/nicolly/IMG_0328.heic', caption: 'Seu sorriso me ilumina ✨' },
+  /* FOTO 03 */ { src: 'imagens/nicolly/IMG_3792.heic', caption: 'Cada instante com você vira lembrança eterna no meu coração 💖' },
+  /* FOTO 04 */ { src: 'imagens/nicolly/IMG_4281.heic', caption: 'Te olhar é como encontrar meu lar no meio do mundo 🏠' },
+  /* FOTO 05 */ { src: 'imagens/nicolly/IMG_4276.heic', caption: 'Seu sorriso tem o poder de apagar qualquer tempestade dentro de mim 🌤️' },
+  /* FOTO 06 */ { src: 'imagens/nicolly/IMG_4266.heic', caption: 'Foi no seu abraço que eu entendi o que é paz de verdade 🕊️' },
+  /* FOTO 07 */ { src: 'imagens/nicolly/IMG_3328.heic', caption: 'Não importa onde estamos, se estou com você, estou completo 💫' },
+  /* FOTO 08 */ { src: 'imagens/nicolly/DB379A41-6366-4191-9EE0-D8223056A6C2.JPG', caption: 'Você é o meu sonho que eu tenho a sorte de viver acordado 🌙' },
+  /* FOTO 09 */ { src: 'imagens/nicolly/40ebd2fb-9ece-46f1-a949-f39a4f5a3fbd.JPG', caption: 'Cada detalhe seu me faz te amar ainda mais 🌹' },
+  /* FOTO 10 */ { src: 'imagens/nicolly/WhatsApp Image 2025-06-04 at 10.58.21 (3).jpeg', caption: 'Se eu pudesse, congelava esse momento pra viver nele pra sempre ⏳' },
 
   /* ═══════════════════════════════════════════════════════════
      ADICIONE NOVAS FOTOS AQUI EMBAIXO!
