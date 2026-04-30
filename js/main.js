@@ -131,7 +131,7 @@ const photos = [
   /* FOTO 03 */ { src: 'imagens/nicolly/WhatsApp Image 2026-04-29 at 20.44.51.jpeg', caption: 'Cada instante com você vira lembrança eterna no meu coração 💖' },
   /* FOTO 04 */ { src: 'imagens/WhatsApp Image 2025-06-04 at 10.58.21 (3).jpeg', caption: 'Te olhar é como encontrar meu lar no meio do mundo 🏠' },
   /* FOTO 05 */ { src: 'imagens/nicolly/WhatsApp Image 2026-04-29 at 20.46.02.jpeg', caption: 'Seu sorriso tem o poder de apagar qualquer tempestade dentro de mim 🌤️' },
-  /* FOTO 06 */ { src: 'imagens/nicolly/IMG_4266.heic', caption: 'Foi no seu abraço que eu entendi o que é paz de verdade 🕊️' },
+  /* FOTO 06 */ { src: 'imagens/WhatsApp Image 2025-06-04 at 11.04.29 (3).jpeg', caption: 'Foi no seu abraço que eu entendi o que é paz de verdade 🕊️' },
   /* FOTO 07 */ { src: 'imagens/nicolly/WhatsApp Image 2026-04-29 at 20.46.03 (2).jpeg', caption: 'Não importa onde estamos, se estou com você, estou completo 💫' },
   /* FOTO 08 */ { src: 'imagens/nicolly/WhatsApp Image 2026-04-29 at 20.46.03 (4).jpeg', caption: 'Você é o meu sonho que eu tenho a sorte de viver acordado 🌙' },
   /* FOTO 09 */ { src: 'imagens/nicolly/WhatsApp Image 2026-04-29 at 20.46.03 (3).jpeg', caption: 'Cada detalhe seu me faz te amar ainda mais 🌹' },
